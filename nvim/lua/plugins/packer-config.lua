@@ -27,6 +27,11 @@ return require('packer').startup(function()
     use('tami5/lspsaga.nvim') --> icons for LSP diagnostics
     use('onsails/lspkind-nvim') --> vscode-like pictograms for neovim lsp completion items
 
+    -- Tabs & Terminal --
+    -- use {'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons'}
+    use('akinsho/bufferline.nvim')
+    use('akinsho/toggleterm.nvim')
+
 
 
 end)

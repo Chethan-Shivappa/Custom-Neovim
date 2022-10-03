@@ -1,5 +1,7 @@
 local set = vim.opt
 
+set.number = true
+set.clipboard = 'unnamedplus'
 set.expandtab = true
 set.smarttab = true
 set.shiftwidth = 4
