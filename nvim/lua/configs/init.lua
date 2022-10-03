@@ -1,2 +1,5 @@
 require('configs/colorscheme-config')
 require('configs/nvim-tree-config')
+require('configs/lsp/mason-config')
+require('configs/lsp/lsp-config')
+require('configs/lsp/completion-config')
