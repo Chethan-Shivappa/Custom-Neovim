@@ -17,12 +17,14 @@ return require('packer').startup(function()
     use 'neovim/nvim-lspconfig'
     -- LSP Installer
     use 'williamboman/mason.nvim'
+    
+
     -- Auto-Completion and Snippets
     use('hrsh7th/nvim-cmp') --> Autocompletion plugin
     use('hrsh7th/cmp-nvim-lsp') --> LSP source for nvim-cmp
     use('saadparwaiz1/cmp_luasnip') --> Snippets source for nvim-cmp
     use('L3MON4D3/LuaSnip') --> Snippets plugini
-
+    -- AutoCompletion Companion Plugins
     use('jose-elias-alvarez/null-ls.nvim') --> inject lsp diagnistocs, formattings, code actions, and more ...
     use('tami5/lspsaga.nvim') --> icons for LSP diagnostics
     use('onsails/lspkind-nvim') --> vscode-like pictograms for neovim lsp completion items
@@ -31,6 +33,15 @@ return require('packer').startup(function()
     -- use {'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons'}
     use('akinsho/bufferline.nvim')
     use('akinsho/toggleterm.nvim')
+
+
+    -- Notify
+    use('rcarriga/nvim-notify')
+
+    -- VimWiki and TaskWiki with Markdown Extension
+    use('vimwiki/vimwiki')
+    use('tools-life/taskwiki')
+    use('preservim/vim-markdown')
 
 
 

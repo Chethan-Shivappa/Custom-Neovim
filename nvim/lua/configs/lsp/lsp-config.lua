@@ -48,6 +48,12 @@ require('lspconfig')['rust_analyzer'].setup{
         }
 }
 
+-- Go Lang --
+require('lspconfig')['gopls'].setup{
+    on_attach = on_attach,
+    flags = lsp_flags,
+}
+
 --[[
 local servers = {
 	"pyright",

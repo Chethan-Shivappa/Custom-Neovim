@@ -18,3 +18,6 @@ require('configs/tabs/bufferline-config')
 
 -- Terminal
 require('configs/terminal/toggleterm-config')
+
+-- VimWiki and TaskWiki
+require('configs/wiki/vim-wiki-config')

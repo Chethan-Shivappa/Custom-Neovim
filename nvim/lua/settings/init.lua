@@ -1,5 +1,8 @@
 local set = vim.opt
 
+-- Notify Plugin
+vim.notify = require("notify")
+
 set.number = true
 set.clipboard = 'unnamedplus'
 set.expandtab = true
